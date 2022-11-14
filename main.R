@@ -1,14 +1,14 @@
-# This function computes the sum of all the elements of a vector
+# This function computes the product of all the elements of a vector
 
-mysum <- function(x) {
+myprod <- function(x) {
 
-  res <- 0
+  res <- 1
 
   for (i in seq_along(x)) {
 
     element <- x[[i]]
 
-    res <- res + element
+    res <- res * element
 
   }
 
