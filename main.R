@@ -4,9 +4,9 @@ mysum <- function(x) {
 
   res <- 0
 
-  for (k in seq_along(x)) {
+  for (i in seq_along(x)) {
 
-    element <- x[[k]]
+    element <- x[[i]]
 
     res <- res + element
 
